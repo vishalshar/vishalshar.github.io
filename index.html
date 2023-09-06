@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js" onmousedown="return false;" onselectstart="return false;">
+<!-- Artificial Intelligence for Society (AIS) @ NYIT -->
+
+<head>
+    <meta charset="utf-8" />
+    <title>Vishal Sharma &middot; Assistant Professor &middot; Computer Science &middot; New York Institute of Technology</title>
+    <meta name="viewport" content="width=device-width" />
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Roboto:wght@300&family=Gentium Book Plus:wght@300&display=swap" rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Lato:100,400,700&family=Roboto:100,400,700&family=Gentium Book Plus:100,400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"></script>
+    <style>
+        body {
+            width: 950px;
+            margin: auto;
+            font-size: 0.82em;
+            font-family: 'Roboto','Gentium Book Plus','Lato', sans-serif, serif;
+            font-weight: 300;
+            position: relative;
+            background-color: #e1e1e1; /* light gray */
+            padding-bottom: 25px;}
+        p {
+            margin: 0px 0px 0px 0px; /* top, right, bottom, left */ 
+            opacity: 0.99;}
+        a {
+            color: #077915;/* green */
+            text-decoration: none; 
+            opacity: 0.85;}
+        a:hover {
+            color: rgb(98, 92, 182);
+            opacity: 1;}
+        hr {
+            border-top-color: #e1e1e1;/* 444444 dark grey HR line*/}
+        li.lessborder { border-bottom: 0 none; }
+        li.borderless { border: 0 none; }
+        .tlk {
+                background-color: #3bc987;}
+        .list-group-item { 
+            opacity: 1.0;
+            background-color: #e1e1e1;}
+        .container {
+            width:  950px;
+            vertical-align: middle;
+            display: inline;}
+        .navbar {
+            line-height: 1.5em;
+            font-weight: 300;}
+        .navbar-text{
+            pointer-events: none;} /* hide on pointer link from NAME */
+        .card {
+            font-weight: 700;}
+        .footer {
+            position: fixed;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            background-color: #212529;
+            color: #e1e1e1;
+            text-align: center;
+            font-size: 0.9em;}
+        .nopadding {
+            padding: 0 !important;
+            margin: 0 !important;}
+        .lesspadding {
+            padding-left: 8px;
+            padding-top: 8px;
+            padding-right: 8px;
+            padding-bottom: 8px;}
+    </style>
+</head>
+
+
+
+<body data-bs-spy="scroll" tabindex="0">
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand navbar-static-top navbar-dark bg-dark sticky-top " role="navigation" id="headernavbar">
+        <div class="container">
+            <a href="index.html" class="navbar-brand" style="font-size: 22px; padding: 0px 0px 0px 0px">&nbsp; Vishal Sharma</a>
+            <a href="http://www.nyit.edu" class="navbar-brand nav-link" style="font-size: 20px; padding: 0px 0px 0px 0px" target="_blank">New York Institute of Technology</a>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#nav" aria-controls="nav"
+                aria-label="Expand Navigation">
+                <div class="navbar-toggle-icon"></div>
+            </button>
+            <!--
+            <ul class="navbar-nav">
+                <li class="nav-item"><a class="nav-link active" aria-current="page" href="#home">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="#publications">Publications</a></li>
+                <li class="nav-item"><a class="nav-link" href="#team">Team</a></li>
+                <li class="nav-item"><a class="nav-link" href="#personal">Personal</a></li>
+            </ul>
+            -->
+        </div>
+    </nav>
+
+
+    <!-- Body -->
+    <div class="container-fluid" data-bs-target="#headernavbar">
+        <!-- todo: Article -->
+        <div class="row">
+            <ul style="margin: 0; padding-top: 5px;">
+                <li class="text-center" style="list-style-type: none;"> <a href="#"> How I rebuilt myself</a>: A survivor's guide <!-- #077915 --></li> 
+            </ul>
+        </div>
+
+        <!-- Intro Card -->
+        <div class="row" >
+            <div class="col-3">
+                <div class="card">
+                    <img style="margin:5px" class="card-image rounded img-responsive img-rounded" src="img\main.jpeg"alt="" />
+                    
+                    <div class="card-body d-flex justify-content-center">
+                        <p class="card-subtitle">
+                            <small class="text-muted">
+                                Vishal Sharma <br />
+                                Assistant Professor <br />
+                                Department of Computer Science <br />
+                                New York Institute of Technology<br />
+                                vishal.sharma<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-at" viewBox="0 0 16 16">
+                                    <path d="M13.106 7.222c0-2.967-2.249-5.032-5.482-5.032-3.35 0-5.646 2.318-5.646 5.702 0 3.493 2.235 5.708 5.762 5.708.862 0 1.689-.123 2.304-.335v-.862c-.43.199-1.354.328-2.29.328-2.926 0-4.813-1.88-4.813-4.798 0-2.844 1.921-4.881 4.594-4.881 2.735 0 4.608 1.688 4.608 4.156 0 1.682-.554 2.769-1.416 2.769-.492 0-.772-.28-.772-.76V5.206H8.923v.834h-.11c-.266-.595-.881-.964-1.6-.964-1.4 0-2.378 1.162-2.378 2.823 0 1.737.957 2.906 2.379 2.906.8 0 1.415-.39 1.709-1.087h.11c.081.67.703 1.148 1.503 1.148 1.572 0 2.57-1.415 2.57-3.643zm-7.177.704c0-1.197.54-1.907 1.456-1.907.93 0 1.524.738 1.524 1.907S8.308 9.84 7.371 9.84c-.895 0-1.442-.725-1.442-1.914z"/>
+                                </svg>nyit.edu
+                            </small>
+                        </p>
+                    </div>
+                    
+
+                    <div class="card-footer d-flex justify-content-center">
+                        <a href="https://github.com/vishalshar" class="card-link" target="_blank"> <!-- Github -->
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
+                                <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
+                            </svg>
+                        </a>
+                        <a href="https://www.quora.com/profile/Vishal-Sharma-154/" class="card-link" target="_blank"> <!-- Quora -->
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-quora" viewBox="0 0 16 16">
+                                <path d="M8.73 12.476c-.554-1.091-1.204-2.193-2.473-2.193-.242 0-.484.04-.707.142l-.43-.863c.525-.45 1.373-.808 2.464-.808 1.697 0 2.568.818 3.26 1.86.41-.89.605-2.093.605-3.584 0-3.724-1.165-5.636-3.885-5.636-2.68 0-3.839 1.912-3.839 5.636 0 3.704 1.159 5.596 3.84 5.596.425 0 .811-.046 1.166-.15Zm.665 1.3a7.127 7.127 0 0 1-1.83.244C3.994 14.02.5 11.172.5 7.03.5 2.849 3.995 0 7.564 0c3.63 0 7.09 2.828 7.09 7.03 0 2.337-1.09 4.236-2.675 5.464.512.767 1.04 1.277 1.773 1.277.802 0 1.125-.62 1.179-1.105h1.043c.061.647-.262 3.334-3.178 3.334-1.767 0-2.7-1.024-3.4-2.224Z"/>
+                            </svg>
+                        </a>
+                        <a href="https://scholar.google.com/citations?hl=en&user=S5kelsEAAAAJ" class="card-link" target="_blank"> <!-- Google -->
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-google" viewBox="0 0 16 16">
+                                <path d="M15.545 6.558a9.42 9.42 0 0 1 .139 1.626c0 2.434-.87 4.492-2.384 5.885h.002C11.978 15.292 10.158 16 8 16A8 8 0 1 1 8 0a7.689 7.689 0 0 1 5.352 2.082l-2.284 2.284A4.347 4.347 0 0 0 8 3.166c-2.087 0-3.86 1.408-4.492 3.304a4.792 4.792 0 0 0 0 3.063h.003c.635 1.893 2.405 3.301 4.492 3.301 1.078 0 2.004-.276 2.722-.764h-.003a3.702 3.702 0 0 0 1.599-2.431H8v-3.08h7.545z"/>
+                            </svg>
+                        </a>
+                        <!-- Twitter
+                        <a href="#" class="card-link">  
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-twitter" viewBox="0 0 16 16">
+                                <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"/>
+                            </svg>
+                        </a>
+                        -->
+                    </div>
+                </div>
+    
+                <div class="my-2">
+                    <strong class="text-secondary" id="teaching">Faculty material statements</strong>
+                    <ul class="list-group">
+                        <li class="list-group-item list-group-item-light nopadding text-center"> <a href="./docs/cv.pdf" target="_blank">CV</a> | <a href="./docs/diversity.pdf" target="_blank">Diversity</a> | <a href="./docs/teaching.pdf" target="_blank">Teaching</a> | <a href="./docs/research.pdf" target="_blank">Research</a></li>
+                    </ul>
+                </div>
+
+                <div class="my-2">
+                    <!--<strong class="text-secondary" id="recent">Office</strong>
+                    <ul class="list-group">
+                        <li class="list-group-item list-group-item-light borderless nopadding">Address:</li>
+                        <li class="list-group-item list-group-item-light borderless nopadding">Hours:</li>
+                        <li class="list-group-item list-group-item-light borderless nopadding">Phone:</li>
+                        <li class="list-group-item list-group-item-light borderless nopadding">E-mail:</li>
+
+                    </ul>-->
+                </div>
+
+                <div class="my-2">
+                    <strong class="text-secondary" id="teaching">Teaching</strong>
+                    <ul class="list-group">
+                        <li class="list-group-item list-group-item-light lessborder nopadding">CS 657: Introduction to Data Mining</li>
+                        <li class="list-group-item list-group-item-light nopadding">CS 760: Database Systems</li>
+                    </ul>
+                </div>
+
+                <div class="my-2">
+                    <strong class="text-secondary" id="recent">Lab</strong>
+                    <ul class="list-group">
+                        <li class="list-group-item list-group-item-light nopadding">I am looking for self-driven bachelors/masters/PhD students</li>
+                        <!--<li class="list-group-item list-group-item-light lessborder nopadding">With supporting text With test supporting text</li>
+                        <li class="list-group-item list-group-item-light lessborder nopadding">With supporting text </li>
+                        <li class="list-group-item list-group-item-light lessborder nopadding">With supporting text </li>
+                        <li class="list-group-item list-group-item-light nopadding">With supporting text </li>-->
+                    </ul>
+                </div>
+
+                <div class="my-2">
+                    <strong class="text-secondary" id="students">Personal</strong>
+                    <ul class="list-group">
+                        <li class="list-group-item list-group-item-light lessborder nopadding">I enjoy reading Philosophy, <br \> Playing Racket & Winter Sports</li>
+                        <li class="list-group-item list-group-item-light nopadding"></li>
+                    </ul>
+                </div>
+
+                <div class="my-2">
+                    <ul class="mt-5 list-group">
+                        <li class="list-group-item list-group-item-light borderless nopadding">I am fortunate for guidance, support, and wisdom from Dr. Curtis Dyreson, Dr. Kyumin Lee, and Dr. Mengyu Wang. I am grateful to my family and friends in my journey.</li>
+                    </ul>
+                </div>
+                <div class="my-2">
+                    <!-- <strong class="text-secondary" id="students">Values</strong> -->
+                    <ul class="list-group">
+                        <img class="figure-img img-fluid rounded" style="width: 200px;" src="img\values.png" alt="figure-img" />
+                    </ul>
+                </div>
+            </div>
+
+
+            <!-- Bio -->
+            <div class="col-9 align-items-start justify-content-evenly">
+                <p class="text-wrap m-4">
+                    Dr. Vishal Sharma did his postdoctoral training at Harvard Opthalmology AI Lab; he holds PhD and MSc in Computer Science from Utah State University and B.Tech in Computer Science & Engineering from SRM Institute of Science & Technology, India. His academic research experience has focused on Compiler Construction, Data Mining & Machine Learning, and Autonomous Databases. During his tenure of about five years in the industry, he has worked/interned at Intel, Micron, and McAfee.
+                </p>
+
+                <div class="card-header border-light-subtle">
+                    <strong class="text-secondary" id="publications">Selected Publications</strong>
+                </div>
+                <ul class="list-group">
+                    <li class="list-group-item list-group-item-light lesspadding">
+                        <a href="https://dl.acm.org/doi/abs/10.1145/3477314.3507691" target="_blank">Indexer++: Workload-Aware Online Index Tuning with Transformers and Reinforcement Learning</a> <br \>
+                        <u>Vishal Sharma</u>, Curtis Dyreson <br \>
+                        37<sup>th</sup> ACM/SIGAPP Symposium on Applied Computing (SAC), 2022<br \>
+                        &star; We formulate the problem of online DB index tuning with RL and pretrained transformers
+                    </li>
+                    <li class="list-group-item list-group-item-light lesspadding">
+                        <a href="https://link.springer.com/article/10.1007/s00607-021-00926-w" target="_blank">Popularity versus Quality: Analyzing and Predicting the Success of Highly Rated Crowdfunded Projects on Amazon</a> <br \>
+                        <u>Vishal Sharma</u>, Kyumin Lee, Curtis Dyreson<br \>
+                        Springer Computing, 2021<br \>
+                    </li>
+                    <li class="list-group-item list-group-item-light lesspadding">
+                        <a href="https://dl.acm.org/doi/abs/10.1145/3472163.3472176" target="_blank">MANTIS: Multiple Type and Attribute Index Selection using Deep Reinforcement Learning</a> <br \>
+                        <u>Vishal Sharma</u>, Curtis Dyreson, Nicholas Flann<br \>
+                        25<sup>th</sup>ACM International Database Engineering & Applications Symposium (IDEAS), 2021<br \>
+                    </li>
+                    <li class="list-group-item list-group-item-light lesspadding">
+                        <a href="https://ieeexplore.ieee.org/abstract/document/9356349" target="_blank">COVID-19 Screening Using Residual Attention Network an Artificial Intelligence Approach</a> <br \>
+                        <u>Vishal Sharma</u>, Curtis Dyreson<br \>
+                        19<sup>th</sup>IEEE International Conference on Machine Learning and Applications (ICMLA), 2020<br \>
+                    </li>
+                    <li class="list-group-item list-group-item-light lesspadding">
+                        <a href="https://ieeexplore.ieee.org/abstract/document/9260058" target="_blank">Automating and Analyzing Whole-Farm Carbon Models</a> <br \>
+                        Aditi Maheshwari, Curtis Dyreson, Jennifer Reeve, <u>Vishal Sharma</u>, Anthony Whaley<br \>
+                        7<sup>th</sup> IEEE International Conference on Data Science and Advanced Analytics (DSAA), 2020<br \>
+                    </li>
+                    <li class="list-group-item list-group-item-light lesspadding">
+                        <a href="https://ieeexplore.ieee.org/abstract/document/8588801" target="_blank">LINKSOCIAL: Linking User Profiles Across Multiple Social Media Platforms</a> <br \>
+                        <u>Vishal Sharma</u>, Curtis Dyreson<br \>
+                        8<sup>th</sup> IEEE International Conference on Big Knowledge (ICBK), 2018<br \>
+                    </li>
+                    <li class="list-group-item list-group-item-light lesspadding">
+                        <a href="https://ieeexplore.ieee.org/abstract/document/8508797" target="_blank">Predicting Highly Rated Crowdfunded Products</a> <br \>
+                        <u>Vishal Sharma</u>, Kyumin Lee<br \>
+                        10<sup>th</sup> IEEE/ACM International Conference on Advances in Social Networks Analysis and Mining (ASONAM), 2018<br \>
+                    </li>
+                    <li class="list-group-item list-group-item-light lesspadding">
+                        <a href="https://ieeexplore.ieee.org/abstract/document/7014603" target="_blank">Recommending Prime Spots of a Destination and Time to Visit From Geo-Tagged Social Data</a> <br \>
+                        <u>Vishal Sharma</u>, Kyumin Lee, Jinwook Chung<br \>
+                        10<sup>th</sup> IEEE International Conference on Collaborative Computing (CollaborateCom), 2014<br \>
+                    </li>
+                    <li class="list-group-item list-group-item-light lesspadding">
+                        <a href="https://dl.acm.org/doi/abs/10.1145/2451436.2451439" target="_blank">Supporting data aspects in pig latin</a> <br \>
+                        Curtis Dyreson, Omar U Florez, Akshay Thakre, <u>Vishal Sharma</u><br \>
+                        12<sup>th</sup> ACM International Conference on Aspect-Oriented Software Development (AOSD), 2013<br \>
+                    </li>
+                </ul>
+
+                <div class="card-header border-light-subtle">
+                    <br /><strong class="text-secondary" id="abstracts">Abstract/Preprint</strong><br />
+                </div>
+                    <ul class="list-group">
+                        <li class="list-group-item list-group-item-light lesspadding">
+                            <a href="https://iovs.arvojournals.org/article.aspx?articleid=2783190"  target="_blank">A Deep Autoencoder Model to Denoise Visual Fields in Glaucoma</a> <br \>
+                            <u>Vishal Sharma</u>, Lucy Q Shen, Louis Pasquale, Tobias Elze, Michael V Boland, Sarah R Wellik, Gustavo De Moraes, Jonathan S Myers, Siamak Yousefi, Mengyu Wang <br \>
+                            Investigative Ophthalmology & Visual Science (ARVO), 2022<br \>
+                        </li>
+                        <li class="list-group-item list-group-item-light lesspadding">
+                            <a href="https://arxiv.org/abs/2006.05596" target="_blank">Speaker Diarization: Using Recurrent Neural Networks</a> <br \>
+                            <u>Vishal Sharma</u>, Zekun Zhang, Zachary Neubert, Curtis Dyreson<br \>
+                            arXiv preprint arXiv:2006.05596, 2020<br \>
+                            &star; In 2017, we formulate the problem of speaker diarization with deep learning<br\>
+
+                        </li>
+                    </ul>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer mb-auto">
+        E-mail questions or comments to vishal.sharma<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-at" viewBox="0 0 16 16">
+            <path d="M13.106 7.222c0-2.967-2.249-5.032-5.482-5.032-3.35 0-5.646 2.318-5.646 5.702 0 3.493 2.235 5.708 5.762 5.708.862 0 1.689-.123 2.304-.335v-.862c-.43.199-1.354.328-2.29.328-2.926 0-4.813-1.88-4.813-4.798 0-2.844 1.921-4.881 4.594-4.881 2.735 0 4.608 1.688 4.608 4.156 0 1.682-.554 2.769-1.416 2.769-.492 0-.772-.28-.772-.76V5.206H8.923v.834h-.11c-.266-.595-.881-.964-1.6-.964-1.4 0-2.378 1.162-2.378 2.823 0 1.737.957 2.906 2.379 2.906.8 0 1.415-.39 1.709-1.087h.11c.081.67.703 1.148 1.503 1.148 1.572 0 2.57-1.415 2.57-3.643zm-7.177.704c0-1.197.54-1.907 1.456-1.907.93 0 1.524.738 1.524 1.907S8.308 9.84 7.371 9.84c-.895 0-1.442-.725-1.442-1.914z"/>
+        </svg>nyit.edu &copy;
+        <script>
+            document.write(new Date().getFullYear());
+        </script>
+        Vishal Sharma
+    </div>
+</body>
+</html>
+
